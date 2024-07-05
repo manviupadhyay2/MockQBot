@@ -18,6 +18,7 @@
     "@clerk/nextjs": "^5.2.1",
     "@google/generative-ai": "^0.14.1",
     "@neondatabase/serverless": "^0.9.4",
+    "@radix-ui/react-collapsible": "^1.1.0",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "babel-loader": "^9.1.3",

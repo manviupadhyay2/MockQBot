@@ -45,7 +45,7 @@ function AddnewInterview() {
       jobExperience +
       ", Depends on this information can u generate " +
       process.env.NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT +
-      " interview questions with answers in JSON Format,Give Question and answers as field in JSON";
+      " interview questions with answers in JSON Format,Give Question and answer as field in JSON";
     const result = await chatSession.sendMessage(InputPrompt);
     const MockJsonResp = result.response
       .text()
